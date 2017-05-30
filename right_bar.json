@@ -1,0 +1,81 @@
+[
+    {
+        "title": "CTF",
+        "admin": false,
+        "icon": null,
+        "onclick": null
+    },
+    {
+        "title": "Submit",
+        "admin": false,
+        "icon": "icon-flag",
+        "onclick": "codiad.ctf.submit();"
+    },
+    {
+        "title": "Show Last Message",
+        "admin": false,
+        "icon": "icon-flag",
+        "onclick": "codiad.ctf.review();"
+    },
+
+    {
+        "title": "Save",
+        "admin": false,
+        "icon": null,
+        "onclick": null
+    },
+    {
+        "title": "Save",
+        "admin": false,
+        "icon": "icon-install",
+        "onclick": "codiad.active.save();"
+    },
+    {
+        "title": "Save All",
+        "admin": false,
+        "icon": "icon-install",
+        "onclick": "codiad.active.saveAll();"
+    },
+    {
+        "title": "Plugins",
+        "admin": false,
+        "icon": null,
+        "onclick": null
+    },
+    {
+        "title": "pluginbar",
+        "admin": false,
+        "icon": null,
+        "onclick": null
+    },
+    {
+        "title": "Account",
+        "admin": false,
+        "icon": null,
+        "onclick": null
+    },
+    {
+        "title": "Settings",
+        "admin": false,
+        "icon": "icon-doc-text",
+        "onclick": "codiad.settings.show();"
+    },
+    {
+        "title": "Password",
+        "admin": false,
+        "icon": "icon-flashlight",
+        "onclick": "codiad.user.password();"
+    },
+    {
+        "title": "break",
+        "admin": false,
+        "icon": null,
+        "onclick": null
+    },
+    {
+        "title": "Logout",
+        "admin": false,
+        "icon": "icon-logout",
+        "onclick": "codiad.user.logout();"
+    }
+]
