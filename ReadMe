@@ -1,0 +1,15 @@
+ Preparing Codiad IDE for CTF platform:
+ 
+ 
+Make an empty LXC
+Attach to LXC
+apt-get install php5
+apt-get install git
+a2enmod ssl
+a2ensite defalt-ssl
+in /root => git clone https://github.com/Codiad/Codiad.git
+in /root => git clone https://github.com/mabdi/ctf-codiad.git
+cp Codiad/* /var/www
+mv Codiad ide000
+chown www-data:www-data ide000 -R
+cp -r /root/ctf-codiad/* /var/www/ide000/components/
